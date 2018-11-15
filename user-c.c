@@ -20,6 +20,15 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+ int proga()
+{
+	int ret;
+        printf("\nCalling execl....\n");
+        ret = execl("/root/proga", "proga", NULL);
+        printf("Failed execl.. ret = %d\n*, ret");
+         return 0;
+}
+ int sql()
 {
 	MYSQL_RES *myresult;
         MYSQL_ROW row;
